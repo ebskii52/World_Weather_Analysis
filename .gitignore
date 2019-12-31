@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Adding config.py file.
+config.py 
+
+API_practice.ipynb
+
+randonm_numbers.ipynb 
+
