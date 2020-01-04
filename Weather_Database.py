@@ -136,7 +136,7 @@ city_data_df.head(20)
 #%%
 ## Upload the CSV file as part of your submission as WeatherPy_challenge.csv.
 # Create the output file (CSV).
-output_data_file = "weather_data/WeatherPy_challenge.csv"
+output_data_file = "data/WeatherPy_challenge.csv"
 # Export the City_Data into a CSV.
 city_data_df.to_csv(output_data_file, index_label="City_ID")
 
