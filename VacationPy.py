@@ -19,7 +19,6 @@ city_data_df.head()
 # Configure gmaps to use your Google API key.
 gmaps.configure(api_key=g_key)
 
-
 # %%
 # Heatmap of temperature
 # Get the latitude and longitude.
@@ -84,7 +83,7 @@ preferred_cities_df = city_data_df.loc[(city_data_df["Max Temp"] <= max_temp) & 
 preferred_cities_df.head(10)
 
 # %%
-preferred_cities_df.count()
+    preferred_cities_df.count()
 
 # %%
 # Create DataFrame called hotel_df to store hotel names along with city, country, max temp, and coordinates.
